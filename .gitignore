@@ -8,7 +8,11 @@
 **/.env
 
 # ignore all files in the /server directory
-/server/*/
+/server/app/public
+/server/app/sql
+/server/conf
+/server/logs
+/server/local-site.json
 
 # don't ignore the restaurant-theme directory
-!server/app/restaurant-theme/
+!server/app/restaurant-theme

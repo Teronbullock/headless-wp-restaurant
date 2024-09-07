@@ -11,7 +11,7 @@ import { DefaultApolloClient } from '@vue/apollo-composable'
 // HTTP connection to the API
 const httpLink = createHttpLink({
   // You should use an absolute URL here
-  uri: 'http://bigdaddysbbq.local/graphql/?=query',
+  uri: 'http://headless-wp-restaurant.local/graphql/?=query',
 })
 
 // Cache implementation

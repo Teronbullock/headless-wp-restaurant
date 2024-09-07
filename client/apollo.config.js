@@ -1,6 +1,6 @@
 // apollo.config.js
-// const urlPath = 'http://bigdaddysbbq.local/graphql/?=query'
-const urlPath = 'http://bigdaddysbbq.local/graphql/'
+// const urlPath = 'http://headless-wp-restaurant.local/graphql/?=query'
+const urlPath = 'http://headless-wp-restaurant.local/graphql/'
 
 module.exports = {
   client: {

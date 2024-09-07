@@ -13,6 +13,3 @@
 /server/conf
 /server/logs
 /server/local-site.json
-
-# don't ignore the restaurant-theme directory
-!server/app/restaurant-theme

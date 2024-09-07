@@ -11,4 +11,4 @@
 /server/*
 
 # don't ignore the restaurant-theme directory
-!/server/app/restaurant-theme
+!server/app/restaurant-theme

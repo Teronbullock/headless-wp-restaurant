@@ -1,0 +1,58 @@
+@use '../00-helpers/variables' as var;
+@use '../00-helpers/breakpoints' as bp;
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var.$font-header;
+  font-family: var.$font-main;
+}
+
+h1 {
+
+  @include bp.media-breakpoint-up('md') {
+    font-size: 6rem;
+  }
+}
+
+h2 {
+
+  @include bp.media-breakpoint-up('md') {
+    font-size: 2.5rem;
+  }
+}
+
+h3 {
+
+  @include bp.media-breakpoint-up('md') {
+    font-size: 1.5rem;
+  }
+}
+
+body {
+  font-family: var.$font-main;
+}
+
+p {
+  @include bp.media-breakpoint-up('md') {
+    font-size: 1.125rem;
+    line-height: 1.4;
+  }
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}

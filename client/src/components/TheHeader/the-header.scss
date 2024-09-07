@@ -1,0 +1,43 @@
+@use '../../assets/sass/00-helpers/variables' as var;
+@use '../../assets/sass/00-helpers/breakpoints' as bp;
+
+// header
+.header {
+  width: 100%;
+  padding: 1.25rem 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 500;
+  
+  &.header--home {
+    transition: background-color 0.2s ease-in-out;
+  }
+
+  &:not(.header--home),
+  &.header--home:not(.top) {
+    background-color: var.$color-white;
+  }
+  
+  &.header--home:not(.top) a {
+    color: var.$color-black;
+  }
+}
+
+
+
+// nav
+// .nav {
+
+// }
+
+.nav__item {
+  color: var.$color-black;
+  text-decoration: none;
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+.header--home .nav__item {
+  color: var.$color-white;
+}

@@ -1,0 +1,38 @@
+@use '../../assets/sass/00-helpers/variables' as var;
+@use '../../assets/sass/00-helpers/breakpoints' as bp;
+
+.product-card {
+  height: 160px;
+  border: 1px solid #000;
+  border-radius: 8px;
+  text-decoration: none;
+  overflow: hidden;
+  -webkit-box-shadow: 4px 4px 9px 1px rgba(0,0,0,0.2);
+  -moz-box-shadow: 4px 4px 9px 1px rgba(0,0,0,0.2);
+  box-shadow: 4px 4px 9px 1px rgba(0,0,0,0.2);
+}
+
+.product-card__title {
+
+  @include bp.media-breakpoint-up('md') {
+    font-size: 1.3rem;
+    font-weight: 700;
+    line-height: 1.33;
+  }
+}
+
+.product-card__price {
+
+  @include bp.media-breakpoint-up('md') {
+    font-size: 1.25rem;
+    font-weight: 500;
+  }
+}
+
+.product-card__description {
+
+  @include bp.media-breakpoint-up('md') {
+    font-size: 1.25rem;
+    font-weight: 300;
+  }
+}

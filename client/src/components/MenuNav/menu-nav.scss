@@ -1,0 +1,22 @@
+@use '../../assets/sass/00-helpers/variables' as var;
+@use '../../assets/sass/00-helpers/breakpoints' as bp;
+
+.menu-nav__container {
+  position: sticky;
+  top: 4rem;
+  background-color: var.$color-white;
+}
+
+.menu-nav__item {
+  margin-right: 1rem;
+  font-size: 1.4rem;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.menu-nav__link {
+  text-decoration: none;
+  color: var.$color-black;
+}

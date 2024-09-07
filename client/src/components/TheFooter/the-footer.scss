@@ -1,0 +1,8 @@
+@use '../../assets/sass/00-helpers/variables' as var;
+@use '../../assets/sass/00-helpers/breakpoints' as bp;
+
+.footer {
+  min-height: 70px;
+  background-color: var.$color-black;
+  color: var.$color-white;
+}

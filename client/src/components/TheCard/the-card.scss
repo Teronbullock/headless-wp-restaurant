@@ -1,0 +1,32 @@
+
+
+.card__title {
+  margin-bottom: 0;
+  padding: 1rem 0;
+  line-height: 1.5;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.card__title-underline {
+  width: 50%;
+  margin: 0 auto;
+  border-bottom: 2px solid #000;
+}
+
+.card__text {
+  margin: 1rem 0 0;
+  font-size: 2rem;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+.card__link {
+  font-size: 2rem;
+  line-height: 1.5;
+  font-weight: 400;
+
+  &--no-decoration {
+    text-decoration: none;
+  }
+}

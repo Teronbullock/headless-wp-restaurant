@@ -1,0 +1,14 @@
+@use '../../assets/sass/00-helpers/variables' as var;
+@use '../../assets/sass/00-helpers/breakpoints' as bp;
+
+.btn {
+  min-width: 100px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+
+  @include bp.media-breakpoint-up('md') {
+    padding: 20px 40px;
+    font-size: 2rem;
+  }
+}
